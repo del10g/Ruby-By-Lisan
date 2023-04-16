@@ -15,8 +15,7 @@ when "3"
 end
 response =
   HTTP.get(
-    "https://opentdb.com/api.php?amount=" + number_of_questions.to_s +
-      "&difficulty=" + difficulty.to_s + "&type=boolean"
+    "https://opentdb.com/api.php?amount=#{number_of_questions.to_s}&difficulty=#{difficulty.to_s}&type=boolean"
   )
 
 p = response.parse
