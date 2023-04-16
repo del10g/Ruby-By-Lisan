@@ -1,2 +1,2 @@
 # Ruby-By-Lisan
-A repo to save all my ruby <bold>Notes</bold> 
+A repo to save all my ruby <b>Notes</b> 
